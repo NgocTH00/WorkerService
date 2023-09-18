@@ -1,4 +1,4 @@
-﻿namespace WorkerServiceTemplate.Models
+﻿namespace SingleService.Models
 {
     public class ResponseDb
     {

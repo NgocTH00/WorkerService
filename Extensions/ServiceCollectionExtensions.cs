@@ -1,10 +1,12 @@
-﻿namespace WorkerServiceTemplate.Extensions
+﻿namespace SingleService.Extensions
 {
     public static class ServiceCollectionExtensions
     {
         public static IServiceCollection AddService(this IServiceCollection services, IConfiguration configuration)
         {
-            services
+
+            StoredProcedures.InitStoredProcedureSetting(configuration);
+            services.AddHostedService<ToDoSomethingBackgroundTask>()
                 .AddLoggerConfiguration(configuration)
                 .AddSingletonServices(configuration)
                 .AddConfigureOptions(configuration)

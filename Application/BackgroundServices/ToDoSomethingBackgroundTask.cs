@@ -1,4 +1,4 @@
-namespace WorkerServiceTemplate.Application.BackgroundServices;
+namespace SingleService.Application.BackgroundServices;
 
 public class ToDoSomethingBackgroundTask : BackgroundService
 {

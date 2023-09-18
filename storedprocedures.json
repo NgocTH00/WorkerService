@@ -1,5 +1,0 @@
-{
-  "StoredProcedures": {
-    "DemoUpdate": "DEMO.SPUPDATE_DEMO" // 1. demo [tên sp]
-  }
-}

@@ -1,4 +1,4 @@
-﻿namespace WorkerServiceTemplate.Infrastructures.Kafka
+﻿namespace SingleService.Infrastructures.Kafka
 {
     public interface IKafkaProduceService
     {

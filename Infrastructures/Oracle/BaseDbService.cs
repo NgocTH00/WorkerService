@@ -1,4 +1,4 @@
-﻿namespace WorkerServiceTemplate.Infrastructures.Oracle
+﻿namespace SingleService.Infrastructures.Oracle
 {
     public class BaseDbService
     {

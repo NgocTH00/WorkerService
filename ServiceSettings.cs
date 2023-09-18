@@ -1,4 +1,4 @@
-﻿namespace WorkerServiceTemplate
+﻿namespace SingleService
 {
     public class ServiceSettings
     {
